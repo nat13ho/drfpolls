@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f712c13-c385-4326-968c-18399637a6e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a35aeb1-7762-4060-90cc-a984a43605f4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a35aeb1-7762-4060-90cc-a984a43605f4/storage_v2/_src_/database/drfpolls._Jno1g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a35aeb1-7762-4060-90cc-a984a43605f4/storage_v2/_src_/database/drfpolls._Jno1g/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a35aeb1-7762-4060-90cc-a984a43605f4/storage_v2/_src_/database/drfpolls._Jno1g/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a35aeb1-7762-4060-90cc-a984a43605f4/storage_v2/_src_/database/drfpolls._Jno1g/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/polls/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/polls/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpolls/apps/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tasks/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfpolls/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfpolls/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfpolls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfpolls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.9/site-packages/psycopg2/_psycopg.cpython-39-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.9/site-packages/psycopg2/_psycopg.cpython-39-darwin.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +83,111 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/drfpolls/apps" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: apps.tasks.tests">
+    <configuration name="Test: apps.polls.tests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="drfpolls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.polls.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.polls.tests.GetSingleProfileTest.test_get_valid_profile" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="drfpolls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.polls.tests.GetSingleProfileTest.test_get_valid_profile" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.polls.tests.ProfileTestCase.setUp" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="drfpolls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.polls.tests.ProfileTestCase.setUp" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.tasks.tests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="drfpolls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.tasks.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.tasks.tests.HomeworkTestCase.test_get_received_homework" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="drfpolls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.tasks.tests.HomeworkTestCase.test_get_received_homework" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="drfpolls" type="Python.DjangoServer" factoryName="Django server">
       <module name="drfpolls" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +212,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: apps.tasks.tests" />
+        <item itemvalue="Django tests.Test: apps.tasks.tests.HomeworkTestCase.test_get_received_homework" />
+        <item itemvalue="Django tests.Test: apps.polls.tests" />
+        <item itemvalue="Django tests.Test: apps.polls.tests.ProfileTestCase.setUp" />
+        <item itemvalue="Django tests.Test: apps.polls.tests.GetSingleProfileTest.test_get_valid_profile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,6 +244,7 @@
       <workItem from="1617711074768" duration="327000" />
       <workItem from="1617713370701" duration="3847000" />
       <workItem from="1617735083025" duration="3681000" />
+      <workItem from="1618088156035" duration="28721000" />
     </task>
     <servers />
   </component>
@@ -116,5 +262,20 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_ProfileTestCase_setUp.coverage" NAME="Test: apps.polls.tests.ProfileTestCase.setUp Coverage Results" MODIFIED="1618243704233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_ProfileTestCase_test_profile_test_mark.coverage" NAME="Test: apps.polls.tests.ProfileTestCase.test_profile_test_mark Coverage Results" MODIFIED="1618242137236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_AuthenticationTestCase_test_authenticated_only.coverage" NAME="Test: apps.polls.tests.AuthenticationTestCase.test_authenticated_only Coverage Results" MODIFIED="1618242727614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_AuthenticationTestCase.coverage" NAME="Test: apps.polls.tests.AuthenticationTestCase Coverage Results" MODIFIED="1618243072344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_AuthenticationTestCase_test_credentials_provided.coverage" NAME="Test: apps.polls.tests.AuthenticationTestCase.test_credentials_provided Coverage Results" MODIFIED="1618243474117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_GetSingleProfileTest_test_get_valid_profile.coverage" NAME="Test: apps.polls.tests.GetSingleProfileTest.test_get_valid_profile Coverage Results" MODIFIED="1618243698561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests.coverage" NAME="Test: apps.polls.tests Coverage Results" MODIFIED="1618245006027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_JWTTestCase.coverage" NAME="Test: apps.polls.tests.JWTTestCase Coverage Results" MODIFIED="1618243077873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_RegistrationTestCase_test_registration.coverage" NAME="Test: apps.polls.tests.RegistrationTestCase.test_registration Coverage Results" MODIFIED="1618222815965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_GetSingleProfileTest.coverage" NAME="Test: apps.polls.tests.GetSingleProfileTest Coverage Results" MODIFIED="1618243083107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_tasks_tests.coverage" NAME="Test: apps.tasks.tests Coverage Results" MODIFIED="1618245667412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_polls_tests_ProfileTestCase.coverage" NAME="Test: apps.polls.tests.ProfileTestCase Coverage Results" MODIFIED="1618243090598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/drfpolls$Test__apps_tasks_tests_HomeworkTestCase_test_get_received_homework.coverage" NAME="Test: apps.tasks.tests.HomeworkTestCase.test_get_received_homework Coverage Results" MODIFIED="1618245555209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
