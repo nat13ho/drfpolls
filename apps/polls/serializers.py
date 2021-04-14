@@ -52,7 +52,7 @@ class AnswerSerializer(serializers.ModelSerializer):
             Question,
             pk=int(self.initial_data.get('question'))
         )
-        if choice not in question.choice_set.all():
+        if not question.choices.filter(choice=choice).exists():
             raise serializers.ValidationError('There is no given answer choice for this question.')
         return choice
 
@@ -84,7 +84,7 @@ class ProfileTestSerializer(serializers.ModelSerializer):
     test = serializers.StringRelatedField(read_only=True)
 
     def validate_test(self, test):
-        if test not in Test.objects.all():
+        if not Test.objects.filter(test=test).exists():
             raise serializers.ValidationError('There is no test with given primary key.')
         elif ProfileTest.objects.filter(
                 profile__user=self.context.get('request').user,

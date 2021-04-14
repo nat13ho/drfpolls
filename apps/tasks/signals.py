@@ -12,8 +12,7 @@ def auto_create_profile_homework(sender, instance, created, **kwargs):
     """Creates user profile when user is registered."""
     if created:
         profiles = Profile.objects.all()
-        homeworks = [Homework(task=instance, profile=profile) for profile in profiles]
-        Homework.objects.bulk_create(homeworks)
+        Homework.objects.bulk_create([Homework(task=instance, profile=profile) for profile in profiles])
 
 
 @receiver(post_delete, sender=Homework)

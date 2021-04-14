@@ -19,12 +19,10 @@ def auto_create_profile_test(sender, instance: Answer, created: bool, **kwargs):
     """Auto creates profile test when user answers all test questions."""
     if created:
         test = instance.question.test
-        user_test_questions = Question.objects.filter(
-            answer__user=instance.user,
-            test=test)
+        user_test_questions = test.questions.filter(answers__user=instance.user)
         user_answers = services.get_answers(user=instance.user, test=test)
 
-        if list(test.question_set.all()) == list(user_test_questions):
+        if test.questions.count() == user_test_questions.count():
             ProfileTest.objects.create(
                 test=test,
                 profile=get_object_or_404(Profile, user=instance.user),

@@ -12,8 +12,7 @@ class TestViewSet(CustomModelViewSet):
     serializer_class = TestSerializer
 
     def get_queryset(self):
-        profile_tests = ProfileTest.objects.filter(profile__user=self.request.user)
-        return Test.objects.exclude(profiletest__in=profile_tests)
+        return Test.objects.exclude(profiletest__profile__user=self.request.user)
 
 
 class QuestionsViewSet(CustomModelViewSet):
@@ -41,9 +40,7 @@ class ChoiceViewSet(CustomModelViewSet):
     serializer_class = ChoiceSerializer
 
     def get_queryset(self):
-        user_questions = Question.objects.filter(answer__user=self.request.user)
-        choices = Choice.objects.exclude(question__in=user_questions)
-        return choices
+        return Choice.objects.exclude(question__answer__user=self.request.user)
 
 
 class CategoryViewSet(CustomModelViewSet):

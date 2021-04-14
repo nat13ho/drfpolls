@@ -152,5 +152,4 @@ SIMPLE_JWT = {
     'ROTATE_REFRESH_TOKENS': True,
 }
 
-
-
+MAX_FILE_SIZE = 2e6

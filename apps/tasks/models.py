@@ -21,8 +21,8 @@ class Homework(models.Model):
         DONE = 'DO', _('Done')
         GRADED = 'GR', _('Graded')
 
-    task = models.ForeignKey(Task, on_delete=models.CASCADE)
-    profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
+    task = models.ForeignKey(Task, on_delete=models.CASCADE, related_name='homeworks')
+    profile = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='homeworks')
     file = models.FileField(upload_to='homeworks/files/%Y/%m/%d/', null=True, blank=True)
     homework_status = models.CharField(max_length=16,
                                        choices=Status.choices,

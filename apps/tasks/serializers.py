@@ -1,3 +1,4 @@
+from django.conf import settings
 from rest_framework import serializers
 
 from apps.tasks.models import Task, Homework
@@ -15,11 +16,10 @@ class HomeworkSerializer(serializers.ModelSerializer):
     homework_status = serializers.SerializerMethodField()
 
     def validate_file(self, file):
-        max_file_size = 2e6
         file_extension = file.name.split('.').pop()
         if file_extension != 'txt':
             raise serializers.ValidationError('Supported file formats: .txt')
-        if file.size > max_file_size:
+        if file.size > settings.MAX_FILE_SIZE:
             raise serializers.ValidationError('Max file size is 2MB.')
         return file
 

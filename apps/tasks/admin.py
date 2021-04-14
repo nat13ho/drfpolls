@@ -12,6 +12,7 @@ class TaskAdmin(admin.ModelAdmin):
 class HomeworkAdmin(admin.ModelAdmin):
     list_display = ('id', 'profile', 'task', 'get_status', 'mark')
     list_display_links = ('id', 'profile')
+    autocomplete_fields = ('profile', 'task')
 
     def get_status(self, obj: Homework):
         return obj.homework_status

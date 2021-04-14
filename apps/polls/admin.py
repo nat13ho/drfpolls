@@ -15,17 +15,24 @@ class ChoiceAdmin(admin.ModelAdmin):
     list_display = ('id', 'choice_text', 'is_correct', 'question', 'get_test')
     list_display_links = ('id', 'choice_text')
     search_fields = ('choice_text', 'question')
+    autocomplete_fields = ('question',)
 
     def get_test(self, obj: Choice):
         return obj.question.test
 
-    get_test.short_description = 'Test'
+    get_test.short_description = 'test'
 
 
 class AnswerAdmin(admin.ModelAdmin):
-    list_display = ('id', 'user', 'choice', 'question')
+    list_display = ('id', 'user', 'choice', 'question', 'get_test')
     list_display_links = ('id', 'user')
     search_fields = ('choice', 'question')
+    autocomplete_fields = ('choice', 'question')
+
+    def get_test(self, obj: Answer):
+        return obj.question.test
+
+    get_test.short_description = 'test'
 
 
 class ProfileAdmin(admin.ModelAdmin):
@@ -34,15 +41,21 @@ class ProfileAdmin(admin.ModelAdmin):
     search_fields = ('user',)
 
 
-class ProfileTestTestAdmin(admin.ModelAdmin):
+class ProfileTestAdmin(admin.ModelAdmin):
     list_display = ('id', 'test', 'profile', 'created_at', 'mark')
     list_display_links = ('id', 'test')
+    autocomplete_fields = ('test', 'profile')
 
 
-admin.site.register(Test)
+class TestAdmin(admin.ModelAdmin):
+    list_display = ('name',)
+    search_fields = ('name',)
+
+
 admin.site.register(Category)
+admin.site.register(Test, TestAdmin)
 admin.site.register(Profile, ProfileAdmin)
-admin.site.register(ProfileTest, ProfileTestTestAdmin)
+admin.site.register(ProfileTest, ProfileTestAdmin)
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice, ChoiceAdmin)
 admin.site.register(Answer, AnswerAdmin)
